@@ -89,7 +89,7 @@
 /* spacing on all sections */
 #about, #experiences {
     margin-top: 3rem;
-    /* margin-bottom: 3rem; */
+    margin-bottom: 3rem;
 }
 #contact {
     padding-bottom: 4rem;
