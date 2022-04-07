@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="timelinestyle" href="timelinestyle.scss">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+        <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+        
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        <!-- Bootstraps Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    </head>
+    <script>
+        function load() {
+          console.log("load event detected!");
+        }
+        window.onload = load;
+      </script>
+    <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Lucklita Theng</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#experiences">Experiences</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, its me, Lita!</h2>
+                <h5 class="hero_desc mt-0 fontSizer"><br><span id="headLine"></span></h5><br>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+            <h1 class="text-center mb-3">About Me</h1>
+                <div class="lead abouttext">
+                    <p> I'm Lita, from Phnom Penh, Cambodia. I'm currently pursuing a bachelor's degree in Computer Science, with a minor in Art History at Carleton College, MN, US.</p>
+                        I am passionate about using media and technology to provide underprivileged youth with better education and opportunities. I enjoy working in a collaborative culture, and taking initiative to solve challenging problems in my community and in society.
+                        I have experience working at start-ups, and non-profit organizations. I believe that I can and will create a positive change in society through my career in tech and passion for social entrepreneurship! </p>
+                    <p> In my free time, I enjoy ceramics, horse-riding, painting, cooking, baking, dancing Latin dances, and bullet journaling. I am an avid traveller too! 
+                        The person I am today is heavily influenced by the different places, and cultures that I engaged with through my travels.</p> 
+                </div>
+    </section>
+
+    <!-- experiences section-->
+    <section id="experiences">
+        <div class="container mt-3">
+            <h1 class="text-center mb-5">Experiences</h1>
+            <div class="row"">
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">UWC ISAK Japan</h4>
+                            <p class="lead card-text"> UWC ISAK Japan heavily emphasizes the value of student-initiatied projects and student-autonomy in the classroom. During my time there, I developed crucial skills in leadership, mindfulness, entrepreneurship and the Design-Innovation process.
+                            </p>
+                            <div>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal1">Read</button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal1" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn close" aria-label="Close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">UWC ISAK Japan</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>At <a href="https://uwcisak.jp/" target="_blank">UWC ISAK</a>, there is a strong focus on leadership, mindfulness and from personal experience, entrepreneurship. Aside from the International Baccalaureate (IB) Diploma Program, I took part in several programs/initiatives outside of academics such as:</p>
+                                                <ul>
+                                                    <li>Student Union Facilitator</li>
+                                                    <li>Member of UWC ISAK's Strategic Planning Committee</li>
+                                                    <li>Co-Founder of ISAK x Koukousei - 2-Day Workshop Experience for Japanese High School Students</li>
+                                                    <li>Organizer and Speaker of a TED-Ed club and event</li>
+                                                    <li>Operation Manager/Project Manager of DAICON - a project that improves Karuizawa local Industries through tourism</li>
+                                                </ul> 
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Semester at Sea</h4>
+                            <p class="lead card-text">During my gap year, I traveled by ship to 11 countries and 4 continents, while taking college courses with Semester At Sea.
+                                I was able to engage with different cultures and people, and the experiences I had contributed greatly to my personal growth.
+                            </p>
+                                <!-- Trigger the modal with a button -->
+                                <div class="text-center"><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal2">Read</button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal2" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn close" aria-label="Close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Semester at Sea</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>After graduating high school, I took a gap year and for the first 3-4 months, I got a full-ride scholarship to go to Semester at Sea, a life changing experience across 11 countries and 4 continents!
+                                                I took 4 college level courses in geography, political science, economics development and finance. The best part about it was that I could apply what I learnt to the countries I visited, expanding my understanding of the world.
+                                                Some of my memorable experiences are:</p>
+                                                <ul>
+                                                    <li>South Africa: Taking an independent trip to two informal settlements just at the outskirts of Cape Town, South Africa in which I learnt about the way the community functions - the council of people, the school and the wealth disparities between communities. I also met amazing strong women who helped me see so much more than just poverty - joy in living.</li>
+                                                    <li>Ghana: Going to a floating village, Nzulenzu, Ghana where I learnt about the troubles, the joy and all the in-betweens. There, I made a promise to the chief that when I can help, I will go back and do my best to bring better health care and education to the people of Nzulenzu.</li>
+                                                    <li>India: I loved Cochin, and the villages around it. I am happy I made the decision to not fly elsewhere within the five days I have in India and just stay in Cochin to explore the day-to-day lives of people. I was very lucky to have made a friend, Anub, a tuk-tuk driver/homestay ownwer who showed me around the fishing villages, his childhood home, his school, and Cochin's local arts and culture.</li>
+                                                    
+                                                </ul>
+                                                <p>Check out my "Journey of a Lifetime" series blog at <a href="https://justlitatheng.medium.com/" target="_blank">Medium</a> for more!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Cambodian Start-Up Scene</h4>
+                            <p class="lead card-text">For 6 months in my gap year, I worked with a self-development website start-up, Wapatoa.com, met with amazing artists, activists, startup founders, and went all over Cambodia to talk about digital literacy, and digital resources.
+                            </p>
+                            <div>
+                                <!-- Trigger the modal with a button -->
+                            <div class="text-center"><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal3">Read</button>
+                            </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal3" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class= "btn close" aria-label="Close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Cambodian Start-Up Scene</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>For 6 months during my gap year, I worked at a start-up, <a href="https://wapatoa.com/" target="_blank">Wapatoa.com</a>, to create content for their website about the arts and culture of Cambodia. The website aims to empower Cambodian youth through self-help/self-development/enrichment content. 
+                                                Through this role, I met many inspiring artists and activists.</p>
+                                            I played many other diverse roles such as :
+                                            <ul>
+                                                <li>Designing and leading a digital literacy workshop for provincial high-school and university across Cambodia</li>
+                                                <li>Meeting with startup founders, entrepreneurs and inspiring young adults in Cambodia, and interviewing them</li>
+                                                <li>Host talks with Barcamp Cambodia about taking opportunities outside the classroom</li>
+                                                <li>Cover a 5-days city-wide art festival, collaboration with Phare Ponleu Selpak, interviewed artists, create written and video content</li>
+                                                <li>Lead a camping/hiking tour for students to a remote island to learn about coastal communities and mangroves with Toursanak - an educational travel touring start up</li>
+                                            </ul>
+                                            
+                                            <p>Check out some of my articles on Wapatoa <a href="https://wapatoa.com/author/lita-theng/" target="_blank">here</a>!</p>
+                                                
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Carleton College</h4>
+                            <p class="lead card-text">I'm currently studying at Carleton College, pursuing a degree in Computer Science, and a concentration in Art History. During my time here, I joined different sports clubs, student organizations and hold multiple positions all over campus.
+                            </p>
+                            <div>
+                                <!-- Trigger the modal with a button -->
+                                <div class="text-center"><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal4">Read</button>
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal4" role="dialog">
+                                    <div class="modal-dialog">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn close" aria-label="Close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Carleton College</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>I'm now in my third year at <a href="https://www.carleton.edu/" target="_blank">Carleton College</a>, currently taking courses in various fields:</p>
+                                            <ul>
+                                                <li> Computer Science: I've particularly enjoyed learning about various algorithms and how they solve our every-day issues, and the human-computer interaction aspect of the field.</li>
+                                                <li> 2D/3D Art: I have taken classes in photography, oil painting and ceramics as a way to self-expression, and to learn more about different ways we put ourselves into the world as humans.</li>
+                                                <li> Art History: I believe that the arts have a beautiful way of capturing moments in history, and that art is indeed its own temporal timeline of events. I enjoy gaining new perspectives, and learning about the various art movements through the ages.</li>
+                                            </ul>
+                                               
+                                            <p>Aside from academics, I have done several things such as:</p>
+                                                <ul>
+                                                    <li> Member of Carleton Equestrian Team: I grew up loving horses, and have been part of the Cambodian National Equestrian team as well as Carleton equestrian team for a few years now.</li>
+                                                    <li> Publicity Manager of Carleton Student Association (CSA) 2019-2020: I bridge the communication channel between the student body and the CSA members.</li>
+                                                    <li> Finalist of Carleton 2019 Start Up Competition: My partner and I were chosen as one of the finalist teams and we pitched. Check the pitch out here!</li>
+                                                    <li> Student Assistant & Blogger at Carleton Office of Admissions: I talk to prospective domestic and international students in fairs/events about my life at Carleton - academic and non-academic so that they can get an insight into the college. Check out my blogs <a href="https://www.carleton.edu/admissions/blog/category/lita/" target="_blank">here</a>!</li>         
+                                                    <li> Student Research Assistant at Carleton Office of Institutional Research Assessment: I organize, migrate and maintain institutional databases, as well as assist in research projects for the college.</li>                                       
+                                                </ul>   
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+
+     <!-- footer section-->
+     <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <i class="social-icons mt-4 bi-envelope-fill text-light"></i><a class="text-light" href="#" target="#">laklitatheng@gmail.com</a>
+                <a class="text-light" href="https://www.linkedin.com/in/lucklita-theng/" target="_blank"><i class="social-icons mt-4 bi-linkedin"></i>Lucklita Theng</a>
+                <a class="text-light" href="https://justlitatheng.medium.com/" target="_blank"><i class="social-icons bi-medium"></i>@justlitatheng</a>
+            </div>
+        </div>
+    </footer>
+    
+<script>
+// add class navbarDark on navbar scroll
+const header = document.querySelector('.navbar');
+
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}
+// Headliner
+new Typewriter(document.getElementById('headLine'), {
+    // Make strings shorter so site doesn't annoyingly shift for long strings
+    strings: ['Software Engineer', 'Entrepreneur', 'Explorer', 'Dancer', 'Artist', 'Equestrian', 'Foodie'],
+    autoStart: true,
+    delay: 50,
+    pauseFor: 1000,
+    loop: true,
+  });
+</script>
+
+</html>
